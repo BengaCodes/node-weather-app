@@ -1,6 +1,6 @@
 const fetchPage = (location) => {
   try {
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response) => {
+    fetch(`/weather?address=${location}`).then((response) => {
       response.json().then(({ location, forecastData, error }) => {
         if (error) {
           messageOne.textContent = error
