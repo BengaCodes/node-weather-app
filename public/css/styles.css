@@ -1,0 +1,66 @@
+body {
+  color: #204051;
+  font-family: 'Sriracha', cursive;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: white;
+  
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page {
+  flex-grow: 1;
+  background-color: #c3edea;
+  padding: 16px;
+}
+
+.portrait {
+  height: 240px;
+  width: 230;
+}
+
+.pic {
+  margin-bottom: 0;
+}
+
+header a {
+  color: #ff5200 ;
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+color: #84a9ac;
+border-top: 1px solid #e0dede;
+margin-top: 16px;
+padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+input {
+  border: 2px solid #abc2e8;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+button {
+  cursor: pointer;
+  border: 3px solid #abc2e8;
+  background: #abc2e8;
+  color: #ffffff;
+  padding: 8px;
+}
