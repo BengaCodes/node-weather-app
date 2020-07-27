@@ -21,13 +21,15 @@ Both of my functions to fetch data from the weatherstack.com and mapbox.com API 
 
 The next step is now to set up the route points for my app using the CRUD methods, mainly the get method though as I am only displaying information for the user to read. This was very interesting as it was ther first time I had come across the res.render method to render data to the browser via html, like below:
 
-* app.get('/about', (req, res) => {
+```
+ app.get('/about', (req, res) => {
   res.render('about', {
     title: 'About',
     name: 'Benga Olasebikan', 
     profession: 'Junior Web Developer'
   })
 })
+```
 
 I now have all my route points setup and able to succesfully fetch my data. I just now need to display it to the user. I downloaded Handlebars.js once again using npm before setting it up in the app.js file to interact with the templates folder. I spent some time learning the syntax for handlebars, which was straightforward and to an extent similar to react in the way its written. 
 
