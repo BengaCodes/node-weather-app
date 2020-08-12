@@ -6,7 +6,9 @@ The objective of the App is for it to provide you with the current weather of an
 
 # Timeframe - One day
 
-# Technologies used - Node.js, Express, npm, Handlebars.js, CSS, JavaScript and Data from mapbox.com and weatherstack.com
+# Technologies used - 
+
+## Node.js, Express, npm, Handlebars.js, CSS, JavaScript and Data from mapbox.com and weatherstack.com
 
 As mentioned, this is an app I built in a day as part of my further learning.
 
