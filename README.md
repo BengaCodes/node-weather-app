@@ -4,6 +4,8 @@ This is an app I built whilst doing further learning about Node.js and Express.
 
 The objective of the App is for it to provide you with the current weather of any location you search for using data from weatherstack.com
 
+## Deployed project - https://lash-weather-app.herokuapp.com/
+
 # Timeframe - One day
 
 # Technologies used - 
